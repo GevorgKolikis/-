@@ -62,7 +62,7 @@ function getResult(diff) {
   } else if (diff < 45) {
     msg = "Շատ հեռույես";
   } else {
-    msg = "Հեռու գնա ստեղից";
+    msg = "Հեռույա գնա ստեղից";
   }
   resultText.textContent = msg;
 }
