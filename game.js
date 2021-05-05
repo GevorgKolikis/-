@@ -51,16 +51,16 @@ function getResult(diff) {
   if (diff === 0) {
     msg = `Մալադեց ${
       attempt - 1
-    }. գուշակումիցտ իմացար ։  `;
+    }. գուշակումիցդ իմացար ։  `;
     restartBtn.style.display = "";
   } else if (diff < 5) {
-    msg = "Շհատ մոտես! ";
+    msg = "Շատ մոտ ես! ";
   } else if (diff < 15) {
-    msg = "Մի քիչ չարչարվես կքթնես";
+    msg = "Մի քիչ չարչարվես կգտնես";
   } else if (diff < 30) {
-    msg = "Հեռույես";
+    msg = "Հեռու ես";
   } else if (diff < 45) {
-    msg = "Շատ հեռույես";
+    msg = "Շատ հեռու ես";
   } else {
     msg = "Հեռույա գնա ստեղից";
   }
